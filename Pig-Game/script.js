@@ -71,7 +71,7 @@ btnHold.addEventListener('click', function () {
 
     // 2. Check if the player's score is >=100
     // Yes->finish the game
-    if (score[currentPlayer] >= 20) {
+    if (score[currentPlayer] >= 100) {
       //finish the game
       playing = false;
       //change background
